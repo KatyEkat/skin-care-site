@@ -14,7 +14,7 @@ defineProps({
 
 <template>
   <div class="header-block">
-    <Logo />
+    <Logo class="logo" />
 
     <div class="buttons-block">
       <button class="header-button">Shop</button>
@@ -44,6 +44,18 @@ defineProps({
   padding: 0px 46px 0px 46px;
 
   background: gray;
+}
+
+.logo {
+  box-sizing: border-box;
+  border-right: 1px solid rgb(255, 255, 255);
+  width: 208px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 48px 0px 0px;
 }
 
 .buttons-block {
