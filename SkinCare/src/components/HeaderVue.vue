@@ -43,7 +43,7 @@ defineProps({
   gap: 48;
   padding: 0px 46px 0px 46px;
 
-  background: gray;
+  /* background: gray; */
 }
 
 .logo {
