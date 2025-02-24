@@ -30,8 +30,8 @@ import CirclreImgLight from './icons/CirclreImgLight.vue'
   grid-template-columns: 1fr 1fr;
   width: 100vw;
   /* height: 830px; */
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: -58px;
   left: 0;
   z-index: -1;
 }

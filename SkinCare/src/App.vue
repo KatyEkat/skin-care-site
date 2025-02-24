@@ -1,6 +1,8 @@
 <script setup>
 import HeaderVue from './components/HeaderVue.vue'
 import MainPage from './components/MainPage.vue'
+import ProductPage from './components/ProductPage.vue'
+
 
 </script>
 
@@ -10,6 +12,7 @@ import MainPage from './components/MainPage.vue'
   </header>
 
   <MainPage />
+  <ProductPage />
 </template>
 
 <style scoped></style>
