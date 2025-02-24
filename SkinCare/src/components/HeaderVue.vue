@@ -24,9 +24,9 @@ defineProps({
     </div>
 
     <div class="header-icons-block">
-      <SearchIcon />
-      <ProfileIcon />
-      <CartIcon />
+      <SearchIcon class="button"/>
+      <ProfileIcon class="button"/>
+      <CartIcon class="button"/>
     </div>
   </div>
 </template>
@@ -90,5 +90,9 @@ defineProps({
   flex-direction: row;
   gap: 12px;
   align-items: center;
+}
+
+.button{
+  cursor: pointer;
 }
 </style>
