@@ -4,12 +4,12 @@ import SearchIcon from './icons/SearchIcon.vue'
 import ProfileIcon from './icons/ProfileIcon.vue'
 import CartIcon from './icons/CartIcon.vue'
 
-defineProps({
-  msg: {
-    type: String,
-    required: true,
-  },
-})
+// defineProps({
+//   msg: {
+//     type: String,
+//     required: true,
+//   },
+// })
 </script>
 
 <template>
