@@ -16,6 +16,7 @@ import BestSellers from './components/BestSellers.vue'
   <MainPage />
   <ProductPage />
   <BestSellers />
+  
 </template>
 
 <style scoped></style>
