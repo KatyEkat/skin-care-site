@@ -22,7 +22,7 @@ import BottlesProduct from './icons/BottlesProduct.vue'
   <div class="line"></div>
 
   <div class="product-block">
-    <AllInOneYellow />
+      <AllInOneYellow />
 
     <div class="product-description-block">
       <div class="produce-content-block">
@@ -134,7 +134,6 @@ import BottlesProduct from './icons/BottlesProduct.vue'
   order: 0;
   align-self: stretch;
   flex-grow: 0;
-  /* margin: 48px 0px; */
 }
 
 .product-name {
