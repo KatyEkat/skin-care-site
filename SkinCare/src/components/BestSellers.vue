@@ -24,6 +24,7 @@ const sliderStyle = computed(() => ({
   transform: `translateX(-${currentIndex.value * step}px)`,
   transition: 'transform 0.3s ease-in-out',
 }))
+
 </script>
 
 <template>
@@ -48,6 +49,8 @@ const sliderStyle = computed(() => ({
           </div>
         </div>
       </div>
+
+     
     </div>
   </div>
 </template>
@@ -59,6 +62,8 @@ const sliderStyle = computed(() => ({
   flex-direction: column;
   gap: 18px;
   overflow: hidden;
+  margin-bottom: 120px;
+
 }
 
 .heading {
