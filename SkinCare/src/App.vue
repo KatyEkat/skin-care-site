@@ -4,6 +4,8 @@ import MainPage from './components/MainPage.vue'
 import ProductPage from './components/ProductPage.vue'
 import BestSellers from './components/BestSellers.vue'
 import ShopByArea from './components/ShopByArea.vue'
+import Ingridients from './components/IngridientsVue.vue'
+
 
 </script>
 
@@ -16,6 +18,7 @@ import ShopByArea from './components/ShopByArea.vue'
   <ProductPage />
   <BestSellers />
   <ShopByArea />
+  <Ingridients />
 </template>
 
 <style scoped></style>
